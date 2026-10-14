@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: poached_eggs}
 layers:
   Base:
-  - TAB
+  - ESC
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - '-'
-  - LCTRL
+  - BACKSPACE
+  - TAB
   - A
   - S
   - D
@@ -37,22 +37,22 @@ layers:
   - .
   - /
   - RSHFT
-  - '&caps_word'
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
   - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - LGUI
-  - LALT
-  - Lower
+  - BACKSPACE
+  - {t: LANG2, h: Mark}
+  - ENTER
   - SPACE
-  - RET
-  - Raise
-  - BSPC
-  - RGUI
+  - {t: LANG1, h: Num}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
-  - {t: Num, h: toggle}
-  Lower:
-  - ESC
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - RCTRL
+  Num:
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -63,8 +63,47 @@ layers:
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - Sft+Ctl+N
   - '`'
-  - '`'
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - Gui+V
+  - Sft+Gui+S
+  - \
+  - \
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Mark:
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -75,34 +114,47 @@ layers:
   - '*'
   - (
   - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
   - '~'
-  - RET
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
+  - _
+  - +
   - '{'
   - '}'
+  - '"'
+  - {t: ▽, type: trans}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - Sft+Ctl+C
+  - Sft+Ctl+V
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - Sft+|
   - '|'
   - {t: ∅, type: none}
   - {t: ∅, type: none}
-  - {t: ∅, type: none}
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - DEL
-  - {t: ▽, type: trans}
-  - BT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  Raise:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Function:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -113,48 +165,71 @@ layers:
   - F8
   - F9
   - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - F12
+  - Gui+Ctl+LEFT ARROW
+  - Gui+TAB
+  - Ctl+Gui+RIGHT ARROW
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - {t: ∅, type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - +
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
+  - Alt+TAB
+  - Sft+Alt+TAB
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   BT:
-  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ∅, type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -163,83 +238,12 @@ layers:
   - {t: ∅, type: none}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - '&studio_unlock'
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - O
-  - M
-  - U
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
   - {t: ∅, type: held}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: held}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - K
-  - E
-  - N
-  Num:
+  - {t: OUT TOG, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP EQUAL
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - BT CLR
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,10 +252,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RET
-  - {t: ∅, type: none}
-  - BSPC
-  - KP 0
-  - '00'
-  - ','
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [19, 20]
+  k: LANG1
+- p: [16, 15]
+  k: LANG2
+- p: [34, 33]
+  k: BT
+- p: [0, 1, 11, 10]
+  k: '&studio_unlock'
