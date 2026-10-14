@@ -43,8 +43,8 @@ layers:
   - {t: ∅, type: none}
   - BACKSPACE
   - {t: LANG2, h: Mark}
-  - ENTER
-  - SPACE
+  - {t: LEFT SHIFT, h: ENTER}
+  - {t: RCTRL, h: SPACE}
   - {t: LANG1, h: Num}
   - {t: ∅, type: none}
   - {t: ∅, type: none}
