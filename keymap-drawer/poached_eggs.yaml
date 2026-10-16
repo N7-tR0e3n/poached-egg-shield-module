@@ -40,7 +40,7 @@ layers:
   - LCTRL
   - LEFT GUI
   - LEFT ALT
-  - {t: ∅, type: none}
+  - SPACE
   - {t: BACKSPACE, h: LEFT ALT}
   - {t: LANG2, h: Mark}
   - {t: ENTER, h: LSHIFT}
