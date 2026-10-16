@@ -41,7 +41,7 @@ layers:
   - LEFT GUI
   - LEFT ALT
   - {t: ∅, type: none}
-  - BACKSPACE
+  - {t: BACKSPACE, h: LEFT ALT}
   - {t: LANG2, h: Mark}
   - {t: ENTER, h: LSHIFT}
   - {t: SPACE, h: LCTRL}
