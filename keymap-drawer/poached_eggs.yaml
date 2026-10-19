@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - LEFT GUI
   - {t: ∅, type: none}
-  - {t: ∅, type: none}
-  - {t: ∅, type: none}
+  - Sft+Gui+LEFT
+  - Sft+Gui+RIGHT
   - {t: ∅, type: none}
   - '~'
   - _
